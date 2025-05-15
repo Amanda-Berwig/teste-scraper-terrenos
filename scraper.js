@@ -28,24 +28,6 @@ async function buscarTerrenos({ localizacao }) {
     await page.screenshot({ path: path.join(__dirname, "vivareal-home.png") });
     console.log("Screenshot da página inicial salvo");
 
-    // 1. Preencher a localização
-    console.log(`Preenchendo localização: ${localizacao}`);
-    try {
-      const localizacaoInputSelector =
-        'input[placeholder="Digite o nome da rua, bairro ou cidade"]';
-
-      await page.waitForSelector(localizacaoInputSelector, { timeout: 10000 });
-      await page.type(localizacaoInputSelector, localizacao);
-      console.log("Localização preenchida com sucesso");
-      await new Promise((resolve) => setTimeout(resolve, 2000));
-    } catch (error) {
-      console.error("Erro ao preencher localização:", error.message);
-      await page.screenshot({
-        path: path.join(__dirname, "erro-localizacao.png"),
-      });
-      throw new Error(`Falha ao preencher localização: ${error.message}`);
-    }
-
     // 2. Selecionar "Lote / Terreno"
     console.log("Tentando abrir o dropdown de tipo de imóvel");
     try {
@@ -166,6 +148,73 @@ async function buscarTerrenos({ localizacao }) {
       throw new Error(`Falha ao selecionar tipo de imóvel: ${error.message}`);
     }
 
+    // 1. Preencher a localização
+    console.log(`Preenchendo localização: ${localizacao}`);
+    try {
+      const localizacaoInputSelector =
+        'input[placeholder="Digite o nome da rua, bairro ou cidade"]';
+
+      await page.waitForSelector(localizacaoInputSelector, { timeout: 10000 });
+
+      // Clicar no input antes de digitar
+      await page.click(localizacaoInputSelector);
+      await new Promise((resolve) => setTimeout(resolve, 3000));
+
+      // Digitar a localização
+      await page.type(localizacaoInputSelector, localizacao, { delay: 100 });
+      console.log("Localização preenchida com sucesso");
+
+      await new Promise((resolve) => setTimeout(resolve, 3000));
+    } catch (error) {
+      console.error("Erro ao preencher localização:", error.message);
+      await page.screenshot({
+        path: path.join(__dirname, "erro-localizacao.png"),
+      });
+      throw new Error(`Falha ao preencher localização: ${error.message}`);
+    }
+    // 2. Esperar o dropdown aparecer e selecionar a sugestão correta
+    try {
+      const dropdownLabelSelector = ".l-dropdown__content label";
+
+      await page.waitForSelector(dropdownLabelSelector, { timeout: 10000 });
+
+      const cidadeSelecionada = localizacao;
+
+      const labels = await page.$$(dropdownLabelSelector);
+      let encontrou = false;
+
+      for (const label of labels) {
+        const span = await label.$("span");
+        const textoSpan = await page.evaluate(
+          (el) => el.textContent.trim(),
+          span
+        );
+
+        if (textoSpan === cidadeSelecionada) {
+          const input = await label.$("input.olx-core-checkbox-radio__input");
+          if (input) {
+            await input.click();
+            encontrou = true;
+            console.log(`Selecionado: ${textoSpan}`);
+            await new Promise((resolve) => setTimeout(resolve, 3000));
+            break;
+          }
+        }
+      }
+
+      if (!encontrou) {
+        throw new Error(
+          `Cidade "${cidadeSelecionada}" não encontrada no dropdown.`
+        );
+      }
+    } catch (error) {
+      console.error("Erro ao selecionar sugestão do dropdown:", error.message);
+      await page.screenshot({
+        path: path.join(__dirname, "erro-dropdown.png"),
+      });
+      throw new Error(`Falha ao selecionar sugestão: ${error.message}`);
+    }
+    await new Promise((resolve) => setTimeout(resolve, 3000));
     // 3. Clicar no botão "Buscar"
     console.log("Clicando no botão Buscar");
     try {
