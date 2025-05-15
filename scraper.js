@@ -201,6 +201,7 @@ async function buscarTerrenos({ localizacao }) {
           }
         }
       }
+      await page.click("body");
 
       if (!encontrou) {
         throw new Error(
@@ -218,17 +219,98 @@ async function buscarTerrenos({ localizacao }) {
     // 3. Clicar no botão "Buscar"
     console.log("Clicando no botão Buscar");
     try {
-      const possiveisBotoesBuscar = [".olx-core-loading-button"];
+      // Expandir a lista de possíveis seletores para o botão de busca
+      const possiveisBotoesBuscar = [
+        ".olx-core-loading-button",
+        "button[data-cy='home-search-btn']",
+        "button.js-search-button",
+        "button.search-button",
+        "button[type='submit']",
+        "button.olx-core-button",
+      ];
 
       let botaoClicado = false;
+
+      // Primeiro, vamos tentar encontrar todos os botões na página para debug
+      const todosBotoes = await page.$$("button");
+      console.log(`Total de botões na página: ${todosBotoes.length}`);
+
+      // Tentar cada seletor
       for (const seletor of possiveisBotoesBuscar) {
-        const botao = await page.$(seletor);
-        if (botao) {
-          console.log(`Botão Buscar encontrado com seletor: ${seletor}`);
-          await botao.click();
-          botaoClicado = true;
-          break;
+        const botoes = await page.$$(seletor);
+        if (botoes.length > 0) {
+          console.log(
+            `Botão Buscar encontrado com seletor: ${seletor} (${botoes.length} elementos)`
+          );
+
+          // Tentar clicar no botão visível
+          for (const botao of botoes) {
+            // Verificar se o botão está visível
+            const isVisible = await page.evaluate((el) => {
+              const style = window.getComputedStyle(el);
+              return (
+                style &&
+                style.display !== "none" &&
+                style.visibility !== "hidden" &&
+                style.opacity !== "0"
+              );
+            }, botao);
+
+            if (isVisible) {
+              // Rolar até o botão para garantir que está visível
+              await botao.evaluate((b) =>
+                b.scrollIntoView({ behavior: "smooth", block: "center" })
+              );
+              await new Promise((r) => setTimeout(r, 1000)); // Esperar a rolagem
+
+              // Clicar usando evaluate para garantir que o evento de clique seja disparado corretamente
+              await page.evaluate((el) => {
+                el.click();
+                console.log("Clique executado via JavaScript");
+              }, botao);
+
+              botaoClicado = true;
+              console.log("Botão Buscar clicado via JavaScript");
+              break;
+            }
+          }
+
+          if (botaoClicado) break;
         }
+      }
+
+      // Se nenhum botão foi encontrado com os seletores, tentar encontrar por texto
+      if (!botaoClicado) {
+        console.log("Tentando encontrar botão por texto...");
+        try {
+          const botaoPorTexto = await page.evaluate(() => {
+            const botoes = Array.from(document.querySelectorAll("button"));
+            const botao = botoes.find(
+              (el) =>
+                el.textContent.toLowerCase().includes("buscar") ||
+                el.textContent.toLowerCase().includes("pesquisar") ||
+                el.textContent.toLowerCase().includes("procurar")
+            );
+            if (botao) {
+              botao.click();
+              return true;
+            }
+            return false;
+          });
+
+          if (botaoPorTexto) {
+            botaoClicado = true;
+            console.log("Botão Buscar clicado pelo texto");
+          }
+        } catch (err) {
+          console.error("Erro ao tentar clicar pelo texto:", err);
+        }
+      }
+
+      if (!botaoClicado) {
+        throw new Error(
+          "Não foi possível encontrar ou clicar no botão de busca"
+        );
       }
 
       console.log("Botão Buscar clicado, aguardando navegação...");
@@ -242,10 +324,61 @@ async function buscarTerrenos({ localizacao }) {
 
     // 4. Aguardar a página de resultados carregar
     try {
-      await page.waitForNavigation({
-        waitUntil: "networkidle2",
-        timeout: 30000,
-      });
+      // Tentar uma abordagem diferente para aguardar a navegação
+      console.log("Aguardando navegação para a página de resultados...");
+
+      // Primeiro, vamos tentar esperar por uma navegação explícita
+      try {
+        await Promise.race([
+          page.waitForNavigation({ waitUntil: "networkidle2", timeout: 10000 }),
+          // Também esperar por elementos que indicam que estamos na página de resultados
+          page.waitForSelector(
+            '.results-summary, [data-testid="total-results"], .js-total-records',
+            { timeout: 10000 }
+          ),
+        ]);
+      } catch (navError) {
+        console.log(
+          "Timeout na navegação padrão, tentando abordagem alternativa..."
+        );
+
+        // Se a navegação falhar, verificar se já estamos na página de resultados
+        // ou se precisamos forçar uma navegação
+        const currentUrl = page.url();
+        console.log(`URL atual: ${currentUrl}`);
+
+        if (currentUrl === "https://www.vivareal.com.br/") {
+          console.log(
+            "Ainda estamos na página inicial, tentando forçar a navegação..."
+          );
+
+          // Tentar forçar a navegação diretamente para a URL de busca
+          try {
+            // Construir uma URL de busca direta
+            const searchUrl = `https://www.vivareal.com.br/venda/brasil/?tipos=lote-terreno&onde=${encodeURIComponent(
+              localizacao
+            )}`;
+            console.log(`Tentando navegar diretamente para: ${searchUrl}`);
+
+            await page.goto(searchUrl, {
+              waitUntil: "networkidle2",
+              timeout: 30000,
+            });
+          } catch (directNavError) {
+            console.error("Erro na navegação direta:", directNavError.message);
+            throw new Error(
+              "Não foi possível navegar para a página de resultados"
+            );
+          }
+        } else {
+          console.log(
+            "URL mudou, mas não detectamos a navegação completa. Continuando..."
+          );
+          // Esperar um pouco mais para garantir que a página carregue
+          await new Promise((r) => setTimeout(r, 5000));
+        }
+      }
+
       console.log(`Na página de resultados: ${page.url()}`);
 
       // Tirar screenshot da página de resultados
