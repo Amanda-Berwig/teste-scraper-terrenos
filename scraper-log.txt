@@ -1,0 +1,2365 @@
+[2025-05-11T22:55:03.998Z] Iniciando busca por terrenos em: ijui, rs
+[2025-05-11T22:55:04.332Z] Navegando para a página inicial do VivaReal...
+[2025-05-11T22:55:04.827Z] Console da página: Access to font at 'https://cdn-vivareal-ssr-prod.vivareal.com.br/_next/static/media/0484562807a97172-s.p.woff2' from origin 'https://www.vivareal.com.br' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+[2025-05-11T22:55:04.829Z] Console da página: Failed to load resource: net::ERR_FAILED
+[2025-05-11T22:55:05.282Z] Console da página: ERROR:  JSHandle@error
+[2025-05-11T22:55:06.963Z] Console da página: Error while reading nspb data from sharedStorage JSHandle@error
+[2025-05-11T22:55:07.938Z] Screenshot da página inicial salvo
+[2025-05-11T22:55:07.939Z] Preenchendo localização: ijui, rs
+[2025-05-11T22:55:07.998Z] Localização preenchida com sucesso
+[2025-05-11T22:55:10.000Z] Tentando abrir o dropdown de tipo de imóvel
+[2025-05-11T22:55:10.009Z] Dropdown encontrado com seletor: button#multiselect
+[2025-05-11T22:55:10.602Z] Console da página: [GSI_LOGGER]: The value of 'callback' is not a function. Configuration ignored.
+[2025-05-11T22:55:10.606Z] Console da página: The mode button/widget are renamed to active/passive respectively and will be deprecated soon.
+[2025-05-11T22:55:10.606Z] Console da página: Not signed in with the identity provider.
+[2025-05-11T22:55:12.142Z] Screenshot do dropdown salvo
+[2025-05-11T22:55:12.143Z] Procurando opção Lote/Terreno...
+[2025-05-11T22:55:12.251Z] Erro durante a busca pela home e scraping: Falha ao selecionar tipo de imóvel: opcaoEncontrada is not defined
+[2025-05-11T22:55:12.487Z] Navegador fechado
+[2025-05-11T22:55:50.758Z] Iniciando busca por terrenos em: florianopolis
+[2025-05-11T22:55:51.093Z] Navegando para a página inicial do VivaReal...
+[2025-05-11T22:55:51.489Z] Console da página: Access to font at 'https://cdn-vivareal-ssr-prod.vivareal.com.br/_next/static/media/0484562807a97172-s.p.woff2' from origin 'https://www.vivareal.com.br' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+[2025-05-11T22:55:51.491Z] Console da página: Failed to load resource: net::ERR_FAILED
+[2025-05-11T22:55:53.554Z] Console da página: Error while reading nspb data from sharedStorage JSHandle@error
+[2025-05-11T22:55:54.515Z] Screenshot da página inicial salvo
+[2025-05-11T22:55:54.515Z] Preenchendo localização: florianopolis
+[2025-05-11T22:55:54.566Z] Localização preenchida com sucesso
+[2025-05-11T22:55:56.573Z] Tentando abrir o dropdown de tipo de imóvel
+[2025-05-11T22:55:56.580Z] Dropdown encontrado com seletor: button#multiselect
+[2025-05-11T22:55:57.078Z] Console da página: [GSI_LOGGER]: The value of 'callback' is not a function. Configuration ignored.
+[2025-05-11T22:55:57.083Z] Console da página: The mode button/widget are renamed to active/passive respectively and will be deprecated soon.
+[2025-05-11T22:55:57.085Z] Console da página: Not signed in with the identity provider.
+[2025-05-11T22:55:57.585Z] Console da página: [GSI_LOGGER]: FedCM get() rejects with NetworkError: Error retrieving a token.
+[2025-05-11T22:55:58.721Z] Screenshot do dropdown salvo
+[2025-05-11T22:55:58.722Z] Procurando opção Lote/Terreno...
+[2025-05-11T22:55:58.722Z] Tentando encontrar opção pelo texto...
+[2025-05-11T22:55:58.725Z] Opções disponíveis: [
+  {
+    "texto": "Tipo de imóvel",
+    "id": "",
+    "classes": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-small \n         l-text--weight-regular \n         undefined",
+    "atributos": {
+      "class": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-small \n         l-text--weight-regular \n         undefined",
+      "for": "multiselect"
+    }
+  },
+  {
+    "texto": "Tipo de imóvel",
+    "id": "",
+    "classes": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-small \n         l-text--weight-regular \n         undefined",
+    "atributos": {
+      "class": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-small \n         l-text--weight-regular \n         undefined",
+      "for": "multiselect"
+    }
+  },
+  {
+    "texto": "Onde deseja morar?",
+    "id": "",
+    "classes": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-regular \n         l-text--weight-regular \n         undefined",
+    "atributos": {
+      "class": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-regular \n         l-text--weight-regular \n         undefined",
+      "for": "search-multiselect"
+    }
+  },
+  {
+    "texto": "Onde deseja morar?",
+    "id": "",
+    "classes": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-regular \n         l-text--weight-regular \n         undefined",
+    "atributos": {
+      "class": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-regular \n         l-text--weight-regular \n         undefined",
+      "for": "search-multiselect"
+    }
+  }
+]
+[2025-05-11T22:55:58.727Z] Opção Lote/Terreno clicada pelo texto
+[2025-05-11T22:56:00.859Z] Screenshot da opção selecionada salvo
+[2025-05-11T22:56:00.860Z] Clicando no botão Buscar
+[2025-05-11T22:56:00.865Z] Botão Buscar encontrado com seletor: button[data-cy="home-search-btn"]
+[2025-05-11T22:56:00.886Z] Botão Buscar clicado, aguardando navegação...
+[2025-05-11T22:56:00.949Z] Console da página: Failed to load resource: the server responded with a status of 403 ()
+[2025-05-11T22:56:01.051Z] Console da página: Failed to load resource: the server responded with a status of 403 ()
+[2025-05-11T22:56:01.548Z] Na página de resultados: https://www.vivareal.com.br/?
+[2025-05-11T22:56:01.606Z] Screenshot da página de resultados salvo
+[2025-05-11T22:56:01.608Z] Encontrados 0 resultados
+[2025-05-11T22:56:01.848Z] Navegador fechado
+[2025-05-11T22:56:01.849Z] Navegador fechado
+[2025-05-11T22:56:20.274Z] Iniciando busca por terrenos em: florianóolis, santa catarina
+[2025-05-11T22:56:20.611Z] Navegando para a página inicial do VivaReal...
+[2025-05-11T22:56:21.027Z] Console da página: Access to font at 'https://cdn-vivareal-ssr-prod.vivareal.com.br/_next/static/media/0484562807a97172-s.p.woff2' from origin 'https://www.vivareal.com.br' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+[2025-05-11T22:56:21.029Z] Console da página: Failed to load resource: net::ERR_FAILED
+[2025-05-11T22:56:21.248Z] Console da página: ERROR:  JSHandle@error
+[2025-05-11T22:56:22.947Z] Console da página: Error while reading nspb data from sharedStorage JSHandle@error
+[2025-05-11T22:56:23.741Z] Screenshot da página inicial salvo
+[2025-05-11T22:56:23.742Z] Preenchendo localização: florianóolis, santa catarina
+[2025-05-11T22:56:23.845Z] Localização preenchida com sucesso
+[2025-05-11T22:56:25.849Z] Tentando abrir o dropdown de tipo de imóvel
+[2025-05-11T22:56:25.855Z] Dropdown encontrado com seletor: button#multiselect
+[2025-05-11T22:56:26.593Z] Console da página: [GSI_LOGGER]: The value of 'callback' is not a function. Configuration ignored.
+[2025-05-11T22:56:26.597Z] Console da página: The mode button/widget are renamed to active/passive respectively and will be deprecated soon.
+[2025-05-11T22:56:26.598Z] Console da página: Not signed in with the identity provider.
+[2025-05-11T22:56:27.497Z] Console da página: [GSI_LOGGER]: FedCM get() rejects with NetworkError: Error retrieving a token.
+[2025-05-11T22:56:27.993Z] Screenshot do dropdown salvo
+[2025-05-11T22:56:27.994Z] Procurando opção Lote/Terreno...
+[2025-05-11T22:56:27.994Z] Tentando encontrar opção pelo texto...
+[2025-05-11T22:56:27.997Z] Opções disponíveis: [
+  {
+    "texto": "Tipo de imóvel",
+    "id": "",
+    "classes": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-small \n         l-text--weight-regular \n         undefined",
+    "atributos": {
+      "class": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-small \n         l-text--weight-regular \n         undefined",
+      "for": "multiselect"
+    }
+  },
+  {
+    "texto": "Apartamento",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Apartamento",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-1",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Casa",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Casa",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-2",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Casa de Condomínio",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Casa de Condomínio",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-3",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Cobertura",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Cobertura",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-4",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Flat",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Flat",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-5",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Kitnet/Conjugado",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Kitnet/Conjugado",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-6",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Lote/Terreno",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Lote/Terreno",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-7",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Sobrado",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Sobrado",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-8",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Edifício Residencial",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Edifício Residencial",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-9",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Fazenda/Sítios/Chácaras",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Fazenda/Sítios/Chácaras",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-10",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Consultório",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Consultório",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-11",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Galpão/Depósito/Armazém",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Galpão/Depósito/Armazém",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-12",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Imóvel Comercial",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Imóvel Comercial",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-13",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Lote/Terreno",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Lote/Terreno",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-14",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Ponto Comercial/Loja/Box",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Ponto Comercial/Loja/Box",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-15",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Sala/Conjunto",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Sala/Conjunto",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-16",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Prédio/Edifício Inteiro",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Prédio/Edifício Inteiro",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-17",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Tipo de imóvel",
+    "id": "",
+    "classes": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-small \n         l-text--weight-regular \n         undefined",
+    "atributos": {
+      "class": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-small \n         l-text--weight-regular \n         undefined",
+      "for": "multiselect"
+    }
+  },
+  {
+    "texto": "Onde deseja morar?",
+    "id": "",
+    "classes": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-regular \n         l-text--weight-regular \n         undefined",
+    "atributos": {
+      "class": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-regular \n         l-text--weight-regular \n         undefined",
+      "for": "search-multiselect"
+    }
+  },
+  {
+    "texto": "Onde deseja morar?",
+    "id": "",
+    "classes": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-regular \n         l-text--weight-regular \n         undefined",
+    "atributos": {
+      "class": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-regular \n         l-text--weight-regular \n         undefined",
+      "for": "search-multiselect"
+    }
+  }
+]
+[2025-05-11T22:56:28.009Z] Console da página: Elemento encontrado pelo texto: Lote/Terreno
+[2025-05-11T22:56:28.028Z] Opção Lote/Terreno clicada pelo texto
+[2025-05-11T22:56:30.139Z] Screenshot da opção selecionada salvo
+[2025-05-11T22:56:30.140Z] Clicando no botão Buscar
+[2025-05-11T22:56:30.143Z] Botão Buscar encontrado com seletor: button[data-cy="home-search-btn"]
+[2025-05-11T22:56:30.162Z] Botão Buscar clicado, aguardando navegação...
+[2025-05-11T22:57:00.261Z] Erro durante a busca pela home e scraping: Falha ao processar página de resultados: Navigation timeout of 30000 ms exceeded
+[2025-05-11T22:57:00.482Z] Navegador fechado
+[2025-05-12T12:43:14.870Z] Iniciando busca por terrenos em: florianópolis, santa catarina
+[2025-05-12T12:43:15.627Z] Navegando para a página inicial do VivaReal...
+[2025-05-12T12:43:18.198Z] Console da página: Error while reading nspb data from sharedStorage JSHandle@error
+[2025-05-12T12:43:19.182Z] Screenshot da página inicial salvo
+[2025-05-12T12:43:19.183Z] Preenchendo localização: florianópolis, santa catarina
+[2025-05-12T12:43:19.233Z] Localização preenchida com sucesso
+[2025-05-12T12:43:21.245Z] Tentando abrir o dropdown de tipo de imóvel
+[2025-05-12T12:43:21.249Z] Dropdown encontrado com seletor: button#multiselect
+[2025-05-12T12:43:21.828Z] Console da página: [GSI_LOGGER]: The value of 'callback' is not a function. Configuration ignored.
+[2025-05-12T12:43:21.831Z] Console da página: The mode button/widget are renamed to active/passive respectively and will be deprecated soon.
+[2025-05-12T12:43:21.833Z] Console da página: Not signed in with the identity provider.
+[2025-05-12T12:43:22.993Z] Console da página: [GSI_LOGGER]: FedCM get() rejects with NetworkError: Error retrieving a token.
+[2025-05-12T12:43:23.398Z] Screenshot do dropdown salvo
+[2025-05-12T12:43:23.398Z] Procurando opção Lote/Terreno...
+[2025-05-12T12:43:23.399Z] Tentando encontrar opção pelo texto...
+[2025-05-12T12:43:23.400Z] Opções disponíveis: [
+  {
+    "texto": "Tipo de imóvel",
+    "id": "",
+    "classes": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-small \n         l-text--weight-regular \n         undefined",
+    "atributos": {
+      "class": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-small \n         l-text--weight-regular \n         undefined",
+      "for": "multiselect"
+    }
+  },
+  {
+    "texto": "Tipo de imóvel",
+    "id": "",
+    "classes": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-small \n         l-text--weight-regular \n         undefined",
+    "atributos": {
+      "class": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-small \n         l-text--weight-regular \n         undefined",
+      "for": "multiselect"
+    }
+  },
+  {
+    "texto": "Onde deseja morar?",
+    "id": "",
+    "classes": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-regular \n         l-text--weight-regular \n         undefined",
+    "atributos": {
+      "class": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-regular \n         l-text--weight-regular \n         undefined",
+      "for": "search-multiselect"
+    }
+  },
+  {
+    "texto": "Onde deseja morar?",
+    "id": "",
+    "classes": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-regular \n         l-text--weight-regular \n         undefined",
+    "atributos": {
+      "class": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-regular \n         l-text--weight-regular \n         undefined",
+      "for": "search-multiselect"
+    }
+  }
+]
+[2025-05-12T12:43:23.402Z] Opção Lote/Terreno clicada pelo texto
+[2025-05-12T12:43:25.517Z] Screenshot da opção selecionada salvo
+[2025-05-12T12:43:25.517Z] Clicando no botão Buscar
+[2025-05-12T12:43:25.520Z] Botão Buscar encontrado com seletor: button[data-cy="home-search-btn"]
+[2025-05-12T12:43:25.535Z] Botão Buscar clicado, aguardando navegação...
+[2025-05-12T12:43:25.600Z] Console da página: Failed to load resource: the server responded with a status of 403 ()
+[2025-05-12T12:43:25.698Z] Console da página: Failed to load resource: the server responded with a status of 403 ()
+[2025-05-12T12:43:26.160Z] Na página de resultados: https://www.vivareal.com.br/?
+[2025-05-12T12:43:26.223Z] Screenshot da página de resultados salvo
+[2025-05-12T12:43:26.226Z] Encontrados 0 resultados
+[2025-05-12T12:43:26.457Z] Navegador fechado
+[2025-05-12T12:43:26.457Z] Navegador fechado
+[2025-05-12T12:44:40.207Z] Iniciando busca por terrenos em: florianópolis, santa catarina
+[2025-05-12T12:44:40.536Z] Navegando para a página inicial do VivaReal...
+[2025-05-12T12:44:41.496Z] Console da página: ERROR:  JSHandle@error
+[2025-05-12T12:44:43.264Z] Console da página: Error while reading nspb data from sharedStorage JSHandle@error
+[2025-05-12T12:44:44.242Z] Screenshot da página inicial salvo
+[2025-05-12T12:44:44.242Z] Preenchendo localização: florianópolis, santa catarina
+[2025-05-12T12:44:44.347Z] Localização preenchida com sucesso
+[2025-05-12T12:44:46.351Z] Tentando abrir o dropdown de tipo de imóvel
+[2025-05-12T12:44:46.357Z] Dropdown encontrado com seletor: button#multiselect
+[2025-05-12T12:44:46.902Z] Console da página: [GSI_LOGGER]: The value of 'callback' is not a function. Configuration ignored.
+[2025-05-12T12:44:46.906Z] Console da página: The mode button/widget are renamed to active/passive respectively and will be deprecated soon.
+[2025-05-12T12:44:46.907Z] Console da página: Not signed in with the identity provider.
+[2025-05-12T12:44:48.509Z] Screenshot do dropdown salvo
+[2025-05-12T12:44:48.509Z] Procurando opção Lote/Terreno...
+[2025-05-12T12:44:48.510Z] Tentando encontrar opção pelo texto...
+[2025-05-12T12:44:48.512Z] Opções disponíveis: [
+  {
+    "texto": "Tipo de imóvel",
+    "id": "",
+    "classes": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-small \n         l-text--weight-regular \n         undefined",
+    "atributos": {
+      "class": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-small \n         l-text--weight-regular \n         undefined",
+      "for": "multiselect"
+    }
+  },
+  {
+    "texto": "Apartamento",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Apartamento",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-1",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Casa",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Casa",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-2",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Casa de Condomínio",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Casa de Condomínio",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-3",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Cobertura",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Cobertura",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-4",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Flat",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Flat",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-5",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Kitnet/Conjugado",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Kitnet/Conjugado",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-6",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Lote/Terreno",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Lote/Terreno",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-7",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Sobrado",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Sobrado",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-8",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Edifício Residencial",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Edifício Residencial",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-9",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Fazenda/Sítios/Chácaras",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Fazenda/Sítios/Chácaras",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-10",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Consultório",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Consultório",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-11",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Galpão/Depósito/Armazém",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Galpão/Depósito/Armazém",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-12",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Imóvel Comercial",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Imóvel Comercial",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-13",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Lote/Terreno",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Lote/Terreno",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-14",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Ponto Comercial/Loja/Box",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Ponto Comercial/Loja/Box",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-15",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Sala/Conjunto",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Sala/Conjunto",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-16",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Prédio/Edifício Inteiro",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Prédio/Edifício Inteiro",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-17",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Tipo de imóvel",
+    "id": "",
+    "classes": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-small \n         l-text--weight-regular \n         undefined",
+    "atributos": {
+      "class": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-small \n         l-text--weight-regular \n         undefined",
+      "for": "multiselect"
+    }
+  },
+  {
+    "texto": "Onde deseja morar?",
+    "id": "",
+    "classes": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-regular \n         l-text--weight-regular \n         undefined",
+    "atributos": {
+      "class": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-regular \n         l-text--weight-regular \n         undefined",
+      "for": "search-multiselect"
+    }
+  },
+  {
+    "texto": "Onde deseja morar?",
+    "id": "",
+    "classes": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-regular \n         l-text--weight-regular \n         undefined",
+    "atributos": {
+      "class": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-regular \n         l-text--weight-regular \n         undefined",
+      "for": "search-multiselect"
+    }
+  }
+]
+[2025-05-12T12:44:48.517Z] Console da página: Elemento encontrado pelo texto: Lote/Terreno
+[2025-05-12T12:44:48.537Z] Opção Lote/Terreno clicada pelo texto
+[2025-05-12T12:44:48.539Z] Console da página: [GSI_LOGGER]: FedCM get() rejects with AbortError: signal is aborted without reason
+[2025-05-12T12:44:50.665Z] Screenshot da opção selecionada salvo
+[2025-05-12T12:44:50.666Z] Clicando no botão Buscar
+[2025-05-12T12:44:50.670Z] Botão Buscar encontrado com seletor: button[data-cy="home-search-btn"]
+[2025-05-12T12:44:50.694Z] Botão Buscar clicado, aguardando navegação...
+[2025-05-12T12:45:20.872Z] Erro durante a busca pela home e scraping: Falha ao processar página de resultados: Navigation timeout of 30000 ms exceeded
+[2025-05-12T12:45:21.099Z] Navegador fechado
+[2025-05-13T13:32:05.414Z] Iniciando busca por terrenos em: São Paulo, SP
+[2025-05-13T13:32:06.552Z] Navegando para a página inicial do VivaReal...
+[2025-05-13T13:32:07.155Z] Console da página: ERROR:  JSHandle@error
+[2025-05-13T13:32:09.156Z] Console da página: Error while reading nspb data from sharedStorage JSHandle@error
+[2025-05-13T13:32:10.138Z] Screenshot da página inicial salvo
+[2025-05-13T13:32:10.138Z] Preenchendo localização: São Paulo, SP
+[2025-05-13T13:32:10.209Z] Localização preenchida com sucesso
+[2025-05-13T13:32:12.219Z] Tentando abrir o dropdown de tipo de imóvel
+[2025-05-13T13:32:12.229Z] Dropdown encontrado com seletor: button#multiselect
+[2025-05-13T13:32:12.621Z] Console da página: [GSI_LOGGER]: The value of 'callback' is not a function. Configuration ignored.
+[2025-05-13T13:32:12.625Z] Console da página: The mode button/widget are renamed to active/passive respectively and will be deprecated soon.
+[2025-05-13T13:32:12.629Z] Console da página: Not signed in with the identity provider.
+[2025-05-13T13:32:14.401Z] Screenshot do dropdown salvo
+[2025-05-13T13:32:14.402Z] Procurando opção Lote/Terreno...
+[2025-05-13T13:32:14.402Z] Tentando encontrar opção pelo texto...
+[2025-05-13T13:32:14.410Z] Opções disponíveis: [
+  {
+    "texto": "Tipo de imóvel",
+    "id": "",
+    "classes": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-small \n         l-text--weight-regular \n         undefined",
+    "atributos": {
+      "class": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-small \n         l-text--weight-regular \n         undefined",
+      "for": "multiselect"
+    }
+  },
+  {
+    "texto": "Apartamento",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Apartamento",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-1",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Casa",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Casa",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-2",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Casa de Condomínio",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Casa de Condomínio",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-3",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Cobertura",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Cobertura",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-4",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Flat",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Flat",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-5",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Kitnet/Conjugado",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Kitnet/Conjugado",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-6",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Lote/Terreno",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Lote/Terreno",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-7",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Sobrado",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Sobrado",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-8",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Edifício Residencial",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Edifício Residencial",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-9",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Fazenda/Sítios/Chácaras",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Fazenda/Sítios/Chácaras",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-10",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Consultório",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Consultório",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-11",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Galpão/Depósito/Armazém",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Galpão/Depósito/Armazém",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-12",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Imóvel Comercial",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Imóvel Comercial",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-13",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Lote/Terreno",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Lote/Terreno",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-14",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Ponto Comercial/Loja/Box",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Ponto Comercial/Loja/Box",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-15",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Sala/Conjunto",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Sala/Conjunto",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-16",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Prédio/Edifício Inteiro",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Prédio/Edifício Inteiro",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-17",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Tipo de imóvel",
+    "id": "",
+    "classes": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-small \n         l-text--weight-regular \n         undefined",
+    "atributos": {
+      "class": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-small \n         l-text--weight-regular \n         undefined",
+      "for": "multiselect"
+    }
+  },
+  {
+    "texto": "Onde deseja morar?",
+    "id": "",
+    "classes": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-regular \n         l-text--weight-regular \n         undefined",
+    "atributos": {
+      "class": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-regular \n         l-text--weight-regular \n         undefined",
+      "for": "search-multiselect"
+    }
+  },
+  {
+    "texto": "Onde deseja morar?",
+    "id": "",
+    "classes": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-regular \n         l-text--weight-regular \n         undefined",
+    "atributos": {
+      "class": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-regular \n         l-text--weight-regular \n         undefined",
+      "for": "search-multiselect"
+    }
+  }
+]
+[2025-05-13T13:32:14.422Z] Console da página: Elemento encontrado pelo texto: Lote/Terreno
+[2025-05-13T13:32:14.443Z] Opção Lote/Terreno clicada pelo texto
+[2025-05-13T13:32:14.446Z] Console da página: [GSI_LOGGER]: FedCM get() rejects with AbortError: signal is aborted without reason
+[2025-05-13T13:32:16.580Z] Screenshot da opção selecionada salvo
+[2025-05-13T13:32:16.580Z] Clicando no botão Buscar
+[2025-05-13T13:32:16.585Z] Botão Buscar encontrado com seletor: button[data-cy="home-search-btn"]
+[2025-05-13T13:32:16.605Z] Botão Buscar clicado, aguardando navegação...
+[2025-05-13T13:32:46.729Z] Erro durante a busca pela home e scraping: Falha ao processar página de resultados: Navigation timeout of 30000 ms exceeded
+[2025-05-13T13:32:46.938Z] Navegador fechado
+[2025-05-15T18:18:47.145Z] Iniciando busca por terrenos em: São Paulo, SP
+[2025-05-15T18:18:47.491Z] Navegando para a página inicial do VivaReal...
+[2025-05-15T18:18:48.187Z] Console da página: ERROR:  JSHandle@error
+[2025-05-15T18:18:49.902Z] Console da página: Error while reading nspb data from sharedStorage JSHandle@error
+[2025-05-15T18:18:50.910Z] Screenshot da página inicial salvo
+[2025-05-15T18:18:50.910Z] Preenchendo localização: São Paulo, SP
+[2025-05-15T18:18:50.973Z] Localização preenchida com sucesso
+[2025-05-15T18:18:52.986Z] Tentando abrir o dropdown de tipo de imóvel
+[2025-05-15T18:18:52.994Z] Dropdown encontrado com seletor: button#multiselect
+[2025-05-15T18:18:53.560Z] Console da página: [GSI_LOGGER]: The value of 'callback' is not a function. Configuration ignored.
+[2025-05-15T18:18:53.564Z] Console da página: The mode button/widget are renamed to active/passive respectively and will be deprecated soon.
+[2025-05-15T18:18:53.568Z] Console da página: Not signed in with the identity provider.
+[2025-05-15T18:18:54.191Z] Console da página: [GSI_LOGGER]: FedCM get() rejects with NetworkError: Error retrieving a token.
+[2025-05-15T18:18:55.137Z] Screenshot do dropdown salvo
+[2025-05-15T18:18:55.138Z] Procurando opção Lote/Terreno...
+[2025-05-15T18:18:55.138Z] Tentando encontrar opção pelo texto...
+[2025-05-15T18:18:55.141Z] Opções disponíveis: [
+  {
+    "texto": "Tipo de imóvel",
+    "id": "",
+    "classes": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-small \n         l-text--weight-regular \n         undefined",
+    "atributos": {
+      "class": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-small \n         l-text--weight-regular \n         undefined",
+      "for": "multiselect"
+    }
+  },
+  {
+    "texto": "Apartamento",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Apartamento",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-1",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Casa",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Casa",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-2",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Casa de Condomínio",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Casa de Condomínio",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-3",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Cobertura",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Cobertura",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-4",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Flat",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Flat",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-5",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Kitnet/Conjugado",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Kitnet/Conjugado",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-6",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Lote/Terreno",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Lote/Terreno",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-7",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Sobrado",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Sobrado",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-8",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Edifício Residencial",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Edifício Residencial",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-9",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Fazenda/Sítios/Chácaras",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Fazenda/Sítios/Chácaras",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-10",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Consultório",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Consultório",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-11",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Galpão/Depósito/Armazém",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Galpão/Depósito/Armazém",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-12",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Imóvel Comercial",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Imóvel Comercial",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-13",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Lote/Terreno",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Lote/Terreno",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-14",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Ponto Comercial/Loja/Box",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Ponto Comercial/Loja/Box",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-15",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Sala/Conjunto",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Sala/Conjunto",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-16",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Prédio/Edifício Inteiro",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Prédio/Edifício Inteiro",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-17",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Tipo de imóvel",
+    "id": "",
+    "classes": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-small \n         l-text--weight-regular \n         undefined",
+    "atributos": {
+      "class": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-small \n         l-text--weight-regular \n         undefined",
+      "for": "multiselect"
+    }
+  },
+  {
+    "texto": "Onde deseja morar?",
+    "id": "",
+    "classes": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-regular \n         l-text--weight-regular \n         undefined",
+    "atributos": {
+      "class": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-regular \n         l-text--weight-regular \n         undefined",
+      "for": "search-multiselect"
+    }
+  },
+  {
+    "texto": "Onde deseja morar?",
+    "id": "",
+    "classes": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-regular \n         l-text--weight-regular \n         undefined",
+    "atributos": {
+      "class": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-regular \n         l-text--weight-regular \n         undefined",
+      "for": "search-multiselect"
+    }
+  }
+]
+[2025-05-15T18:18:55.148Z] Console da página: Elemento encontrado pelo texto: Lote/Terreno
+[2025-05-15T18:18:55.166Z] Opção Lote/Terreno clicada pelo texto
+[2025-05-15T18:18:57.285Z] Screenshot da opção selecionada salvo
+[2025-05-15T18:18:57.286Z] Clicando no botão Buscar
+[2025-05-15T18:18:57.404Z] Erro durante a busca pela home e scraping: Falha ao clicar no botão Buscar: SyntaxError: Failed to execute 'querySelector' on 'Document': 'button:has-text("Buscar")' is not a valid selector.
+[2025-05-15T18:18:57.638Z] Navegador fechado
+[2025-05-15T18:23:21.300Z] Iniciando busca por terrenos em: São Paulo, SP
+[2025-05-15T18:23:21.632Z] Navegando para a página inicial do VivaReal...
+[2025-05-15T18:23:22.278Z] Console da página: ERROR:  JSHandle@error
+[2025-05-15T18:23:24.013Z] Console da página: Error while reading nspb data from sharedStorage JSHandle@error
+[2025-05-15T18:23:24.973Z] Screenshot da página inicial salvo
+[2025-05-15T18:23:24.973Z] Preenchendo localização: São Paulo, SP
+[2025-05-15T18:23:25.039Z] Localização preenchida com sucesso
+[2025-05-15T18:23:27.040Z] Tentando abrir o dropdown de tipo de imóvel
+[2025-05-15T18:23:27.050Z] Dropdown encontrado com seletor: button#multiselect
+[2025-05-15T18:23:27.923Z] Console da página: [GSI_LOGGER]: The value of 'callback' is not a function. Configuration ignored.
+[2025-05-15T18:23:27.927Z] Console da página: The mode button/widget are renamed to active/passive respectively and will be deprecated soon.
+[2025-05-15T18:23:27.929Z] Console da página: Not signed in with the identity provider.
+[2025-05-15T18:23:29.216Z] Screenshot do dropdown salvo
+[2025-05-15T18:23:29.216Z] Procurando opção Lote/Terreno...
+[2025-05-15T18:23:29.216Z] Tentando encontrar opção pelo texto...
+[2025-05-15T18:23:29.219Z] Opções disponíveis: [
+  {
+    "texto": "Tipo de imóvel",
+    "id": "",
+    "classes": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-small \n         l-text--weight-regular \n         undefined",
+    "atributos": {
+      "class": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-small \n         l-text--weight-regular \n         undefined",
+      "for": "multiselect"
+    }
+  },
+  {
+    "texto": "Apartamento",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Apartamento",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-1",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Casa",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Casa",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-2",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Casa de Condomínio",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Casa de Condomínio",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-3",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Cobertura",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Cobertura",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-4",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Flat",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Flat",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-5",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Kitnet/Conjugado",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Kitnet/Conjugado",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-6",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Lote/Terreno",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Lote/Terreno",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-7",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Sobrado",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Sobrado",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-8",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Edifício Residencial",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Edifício Residencial",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-9",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Fazenda/Sítios/Chácaras",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Fazenda/Sítios/Chácaras",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-10",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Consultório",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Consultório",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-11",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Galpão/Depósito/Armazém",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Galpão/Depósito/Armazém",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-12",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Imóvel Comercial",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Imóvel Comercial",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-13",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Lote/Terreno",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Lote/Terreno",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-14",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Ponto Comercial/Loja/Box",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Ponto Comercial/Loja/Box",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-15",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Sala/Conjunto",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Sala/Conjunto",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-16",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Prédio/Edifício Inteiro",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Prédio/Edifício Inteiro",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-17",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Tipo de imóvel",
+    "id": "",
+    "classes": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-small \n         l-text--weight-regular \n         undefined",
+    "atributos": {
+      "class": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-small \n         l-text--weight-regular \n         undefined",
+      "for": "multiselect"
+    }
+  },
+  {
+    "texto": "Onde deseja morar?",
+    "id": "",
+    "classes": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-regular \n         l-text--weight-regular \n         undefined",
+    "atributos": {
+      "class": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-regular \n         l-text--weight-regular \n         undefined",
+      "for": "search-multiselect"
+    }
+  },
+  {
+    "texto": "Onde deseja morar?",
+    "id": "",
+    "classes": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-regular \n         l-text--weight-regular \n         undefined",
+    "atributos": {
+      "class": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-regular \n         l-text--weight-regular \n         undefined",
+      "for": "search-multiselect"
+    }
+  }
+]
+[2025-05-15T18:23:29.223Z] Console da página: Elemento encontrado pelo texto: Lote/Terreno
+[2025-05-15T18:23:29.240Z] Opção Lote/Terreno clicada pelo texto
+[2025-05-15T18:23:29.244Z] Console da página: [GSI_LOGGER]: FedCM get() rejects with AbortError: signal is aborted without reason
+[2025-05-15T18:23:31.372Z] Screenshot da opção selecionada salvo
+[2025-05-15T18:23:31.373Z] Clicando no botão Buscar
+[2025-05-15T18:23:31.380Z] Botão Buscar encontrado com seletor: .olx-core-loading-button
+[2025-05-15T18:23:31.403Z] Botão Buscar clicado, aguardando navegação...
+[2025-05-15T18:24:01.527Z] Erro durante a busca pela home e scraping: Falha ao processar página de resultados: Navigation timeout of 30000 ms exceeded
+[2025-05-15T18:24:01.723Z] Navegador fechado
+[2025-05-15T18:29:03.139Z] Iniciando busca por terrenos em: São Paulo,SP
+[2025-05-15T18:29:03.471Z] Navegando para a página inicial do VivaReal...
+[2025-05-15T18:29:04.281Z] Console da página: ERROR:  JSHandle@error
+[2025-05-15T18:29:06.069Z] Console da página: Error while reading nspb data from sharedStorage JSHandle@error
+[2025-05-15T18:29:07.036Z] Screenshot da página inicial salvo
+[2025-05-15T18:29:07.036Z] Preenchendo localização: São Paulo,SP
+[2025-05-15T18:29:07.101Z] Localização preenchida com sucesso
+[2025-05-15T18:29:09.115Z] Tentando abrir o dropdown de tipo de imóvel
+[2025-05-15T18:29:09.128Z] Dropdown encontrado com seletor: button#multiselect
+[2025-05-15T18:29:09.747Z] Console da página: [GSI_LOGGER]: The value of 'callback' is not a function. Configuration ignored.
+[2025-05-15T18:29:09.752Z] Console da página: The mode button/widget are renamed to active/passive respectively and will be deprecated soon.
+[2025-05-15T18:29:09.755Z] Console da página: Not signed in with the identity provider.
+[2025-05-15T18:29:11.301Z] Screenshot do dropdown salvo
+[2025-05-15T18:29:11.301Z] Procurando opção Lote/Terreno...
+[2025-05-15T18:29:11.302Z] Tentando encontrar opção pelo texto...
+[2025-05-15T18:29:11.304Z] Opções disponíveis: [
+  {
+    "texto": "Tipo de imóvel",
+    "id": "",
+    "classes": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-small \n         l-text--weight-regular \n         undefined",
+    "atributos": {
+      "class": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-small \n         l-text--weight-regular \n         undefined",
+      "for": "multiselect"
+    }
+  },
+  {
+    "texto": "Apartamento",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Apartamento",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-1",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Casa",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Casa",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-2",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Casa de Condomínio",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Casa de Condomínio",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-3",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Cobertura",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Cobertura",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-4",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Flat",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Flat",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-5",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Kitnet/Conjugado",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Kitnet/Conjugado",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-6",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Lote/Terreno",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Lote/Terreno",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-7",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Sobrado",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Sobrado",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-8",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Edifício Residencial",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Edifício Residencial",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-9",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Fazenda/Sítios/Chácaras",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Fazenda/Sítios/Chácaras",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-10",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Consultório",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Consultório",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-11",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Galpão/Depósito/Armazém",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Galpão/Depósito/Armazém",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-12",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Imóvel Comercial",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Imóvel Comercial",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-13",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Lote/Terreno",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Lote/Terreno",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-14",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Ponto Comercial/Loja/Box",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Ponto Comercial/Loja/Box",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-15",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Sala/Conjunto",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Sala/Conjunto",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-16",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Prédio/Edifício Inteiro",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Prédio/Edifício Inteiro",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-17",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Tipo de imóvel",
+    "id": "",
+    "classes": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-small \n         l-text--weight-regular \n         undefined",
+    "atributos": {
+      "class": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-small \n         l-text--weight-regular \n         undefined",
+      "for": "multiselect"
+    }
+  },
+  {
+    "texto": "Onde deseja morar?",
+    "id": "",
+    "classes": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-regular \n         l-text--weight-regular \n         undefined",
+    "atributos": {
+      "class": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-regular \n         l-text--weight-regular \n         undefined",
+      "for": "search-multiselect"
+    }
+  },
+  {
+    "texto": "Onde deseja morar?",
+    "id": "",
+    "classes": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-regular \n         l-text--weight-regular \n         undefined",
+    "atributos": {
+      "class": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-regular \n         l-text--weight-regular \n         undefined",
+      "for": "search-multiselect"
+    }
+  }
+]
+[2025-05-15T18:29:11.311Z] Console da página: Elemento encontrado pelo texto: Lote/Terreno
+[2025-05-15T18:29:11.329Z] Opção Lote/Terreno clicada pelo texto
+[2025-05-15T18:29:11.331Z] Console da página: [GSI_LOGGER]: FedCM get() rejects with AbortError: signal is aborted without reason
+[2025-05-15T18:29:13.450Z] Screenshot da opção selecionada salvo
+[2025-05-15T18:29:13.451Z] Clicando no botão Buscar
+[2025-05-15T18:29:13.457Z] Botão Buscar encontrado com seletor: .olx-core-loading-button
+[2025-05-15T18:29:13.478Z] Botão Buscar clicado, aguardando navegação...
+[2025-05-15T18:30:09.241Z] Iniciando busca por terrenos em: São Paulo, SP
+[2025-05-15T18:30:09.570Z] Navegando para a página inicial do VivaReal...
+[2025-05-15T18:30:10.385Z] Console da página: ERROR:  JSHandle@error
+[2025-05-15T18:30:12.087Z] Console da página: Error while reading nspb data from sharedStorage JSHandle@error
+[2025-05-15T18:30:12.868Z] Screenshot da página inicial salvo
+[2025-05-15T18:30:12.869Z] Preenchendo localização: São Paulo, SP
+[2025-05-15T18:30:12.935Z] Localização preenchida com sucesso
+[2025-05-15T18:30:14.936Z] Tentando abrir o dropdown de tipo de imóvel
+[2025-05-15T18:30:14.948Z] Dropdown encontrado com seletor: button#multiselect
+[2025-05-15T18:30:15.884Z] Console da página: [GSI_LOGGER]: The value of 'callback' is not a function. Configuration ignored.
+[2025-05-15T18:30:15.887Z] Console da página: The mode button/widget are renamed to active/passive respectively and will be deprecated soon.
+[2025-05-15T18:30:15.888Z] Console da página: Not signed in with the identity provider.
+[2025-05-15T18:30:17.094Z] Screenshot do dropdown salvo
+[2025-05-15T18:30:17.095Z] Procurando opção Lote/Terreno...
+[2025-05-15T18:30:17.095Z] Tentando encontrar opção pelo texto...
+[2025-05-15T18:30:17.098Z] Opções disponíveis: [
+  {
+    "texto": "Tipo de imóvel",
+    "id": "",
+    "classes": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-small \n         l-text--weight-regular \n         undefined",
+    "atributos": {
+      "class": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-small \n         l-text--weight-regular \n         undefined",
+      "for": "multiselect"
+    }
+  },
+  {
+    "texto": "Apartamento",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Apartamento",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-1",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Casa",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Casa",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-2",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Casa de Condomínio",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Casa de Condomínio",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-3",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Cobertura",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Cobertura",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-4",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Flat",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Flat",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-5",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Kitnet/Conjugado",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Kitnet/Conjugado",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-6",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Lote/Terreno",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Lote/Terreno",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-7",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Sobrado",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Sobrado",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-8",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Edifício Residencial",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Edifício Residencial",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-9",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Fazenda/Sítios/Chácaras",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Fazenda/Sítios/Chácaras",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-10",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Consultório",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Consultório",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-11",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Galpão/Depósito/Armazém",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Galpão/Depósito/Armazém",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-12",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Imóvel Comercial",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Imóvel Comercial",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-13",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Lote/Terreno",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Lote/Terreno",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-14",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Ponto Comercial/Loja/Box",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Ponto Comercial/Loja/Box",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-15",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Sala/Conjunto",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Sala/Conjunto",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-16",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Prédio/Edifício Inteiro",
+    "id": "",
+    "classes": "",
+    "atributos": {}
+  },
+  {
+    "texto": "Prédio/Edifício Inteiro",
+    "id": "",
+    "classes": "l-checkbox l-checkbox--variant--regular",
+    "atributos": {
+      "for": "l-checkbox-17",
+      "class": "l-checkbox l-checkbox--variant--regular"
+    }
+  },
+  {
+    "texto": "Tipo de imóvel",
+    "id": "",
+    "classes": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-small \n         l-text--weight-regular \n         undefined",
+    "atributos": {
+      "class": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-small \n         l-text--weight-regular \n         undefined",
+      "for": "multiselect"
+    }
+  },
+  {
+    "texto": "Onde deseja morar?",
+    "id": "",
+    "classes": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-regular \n         l-text--weight-regular \n         undefined",
+    "atributos": {
+      "class": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-regular \n         l-text--weight-regular \n         undefined",
+      "for": "search-multiselect"
+    }
+  },
+  {
+    "texto": "Onde deseja morar?",
+    "id": "",
+    "classes": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-regular \n         l-text--weight-regular \n         undefined",
+    "atributos": {
+      "class": "l-text \n         l-u-color-neutral-28 \n         l-text--variant-body-regular \n         l-text--weight-regular \n         undefined",
+      "for": "search-multiselect"
+    }
+  }
+]
+[2025-05-15T18:30:17.104Z] Console da página: Elemento encontrado pelo texto: Lote/Terreno
+[2025-05-15T18:30:17.121Z] Opção Lote/Terreno clicada pelo texto
+[2025-05-15T18:30:17.123Z] Console da página: [GSI_LOGGER]: FedCM get() rejects with AbortError: signal is aborted without reason
+[2025-05-15T18:30:19.237Z] Screenshot da opção selecionada salvo
+[2025-05-15T18:30:19.238Z] Clicando no botão Buscar
+[2025-05-15T18:30:19.241Z] Botão Buscar encontrado com seletor: .olx-core-loading-button
+[2025-05-15T18:30:19.261Z] Botão Buscar clicado, aguardando navegação...

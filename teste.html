@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Busca de Terrenos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .search-container {
+            margin-bottom: 20px;
+        }
+
+        input {
+            padding: 8px;
+            width: 300px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            padding: 8px 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        #loading {
+            display: none;
+            margin: 20px 0;
+        }
+
+        #error {
+            color: red;
+            margin: 10px 0;
+            display: none;
+        }
+
+        #resultadoInfo {
+            margin: 20px 0;
+            font-weight: bold;
+        }
+
+        .terreno-card {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 4px;
+        }
+
+        .terreno-tipo {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .terreno-preco {
+            color: #4CAF50;
+            font-weight: bold;
+            font-size: 16px;
+            margin: 5px 0;
+        }
+
+        .terreno-area,
+        .terreno-local {
+            color: #666;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Busca de Terrenos</h1>
+
+    <div class="search-container">
+        <input type="text" id="localInput" placeholder="Digite a localização (ex: São Paulo, SP)" />
+        <button onclick="buscar()">Buscar</button>
+    </div>
+
+    <div id="loading">Buscando terrenos, aguarde...</div>
+    <div id="error"></div>
+    <div id="resultadoInfo"></div>
+    <div id="resultados"></div>
+
+    <script>
+        async function buscar() {
+            const local = document.getElementById('localInput').value;
+
+            if (!local) {
+                mostrarErro("Por favor, digite uma localização");
+                return;
+            }
+
+            // Limpar resultados anteriores
+            document.getElementById('resultados').innerHTML = '';
+            document.getElementById('resultadoInfo').innerHTML = '';
+            document.getElementById('error').style.display = 'none';
+            document.getElementById('loading').style.display = 'block';
+
+            try {
+                const res = await fetch('http://localhost:3000/buscar', {
+
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ localizacao: local }),
+                    mode: 'cors', // Explicitamente definir o modo CORS
+                    credentials: 'omit' // Não enviar cookies
+                });
+
+                if (!res.ok) {
+                    throw new Error(`Erro na requisição: ${res.status} ${res.statusText}`);
+                }
+
+                const data = await res.json();
+                mostrarResultados(data);
+            } catch (error) {
+                console.error("Erro:", error);
+                mostrarErro(`Erro ao buscar dados: ${error.message}`);
+            } finally {
+                document.getElementById('loading').style.display = 'none';
+            }
+        }
+
+        function mostrarErro(mensagem) {
+            const errorDiv = document.getElementById('error');
+            errorDiv.textContent = mensagem;
+            errorDiv.style.display = 'block';
+        }
+
+        function mostrarResultados(data) {
+            const resultadosDiv = document.getElementById('resultados');
+            const infoDiv = document.getElementById('resultadoInfo');
+
+            // Mostrar informações sobre a quantidade de resultados
+            infoDiv.textContent = `Encontrados ${data.quantidade_resultados} terrenos em ${data.localizacao}`;
+
+            // Se não houver resultados
+            if (!data.lotes || data.lotes.length === 0) {
+                resultadosDiv.innerHTML = '<p>Nenhum terreno encontrado para esta localização.</p>';
+                return;
+            }
+
+            // Criar um card para cada terreno
+            data.lotes.forEach(terreno => {
+                const terrenoCard = document.createElement('div');
+                terrenoCard.className = 'terreno-card';
+
+                terrenoCard.innerHTML = `
+                    <div class="terreno-tipo">${terreno.tipo}</div>
+                    <div class="terreno-preco">${terreno.preco}</div>
+                    <div class="terreno-area">${terreno.area}</div>
+                    <div class="terreno-local">${terreno.localizacao}</div>
+                `;
+
+                resultadosDiv.appendChild(terrenoCard);
+            });
+        }
+    </script>
+</body>
+
+</html>
